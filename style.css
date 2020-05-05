@@ -1,0 +1,77 @@
+html,
+body {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+header {
+  padding: 40px 16px;
+}
+.words {
+  padding: 0px 32px;
+}
+
+.title {
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  color: #00274c;
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+.hero {
+  width: 100%;
+  height: auto;
+}
+
+.intro {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #131516;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0px, 0px, 24px;
+}
+
+.introparas {
+  font-family: "Open Sans";
+  color: #131516;
+  font-weight: lighter;
+}
+
+form {
+  background-color: #00274c;
+  color: #fafafa;
+  padding: 24px;
+  text-align: left;
+}
+.formTitle {
+  font: 24px Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+  font-weight: bold;
+}
+label {
+  display: block;
+  font: 16px "Open Sans";
+}
+input {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  background-color: #00274c;
+  width: 100%;
+  font-size: 16px;
+  color: #ffcb05;
+  /* margin: ; */
+}
+
+#program {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  background-color: #00274c;
+  font: 16px "Open Sans";
+  width: 50%;
+  color: White;
+}
+
+button: ;
