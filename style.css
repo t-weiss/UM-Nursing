@@ -9,6 +9,7 @@ header {
   padding: 40px 16px;
 }
 .words {
+  display: block;
   padding: 0px 32px;
 }
 
@@ -41,7 +42,7 @@ header {
 form {
   background-color: #00274c;
   color: #fafafa;
-  padding: 24px;
+  padding: 64px 24px;
   text-align: left;
 }
 .formTitle {
@@ -61,7 +62,11 @@ input {
   width: 100%;
   font-size: 16px;
   color: #ffcb05;
+  margin: 20px 0px;
   /* margin: ; */
+}
+select {
+  margin: 20px 0px;
 }
 
 #program {
@@ -74,4 +79,49 @@ input {
   color: White;
 }
 
-button: ;
+button {
+  background-color: #00274c;
+  color: white;
+  border-style: solid;
+  padding: 8px 32px;
+  margin: 20px;
+}
+.formDiv {
+  display: flex;
+
+  justify-content: space-between;
+}
+.programIntoBlurb {
+  font: 18px Georgia, Times;
+  margin: 64px 0px 32px;
+  text-align: center;
+  font-weight: bold;
+}
+.chooseHeading {
+  font: 36px "Open Sans";
+  color: #00274c;
+  font-weight: bold;
+  text-align: center;
+}
+
+.programHead {
+  font: 24px "Open Sans";
+  color: #00274c;
+}
+
+.clinical {
+  background-color: #ffcb05;
+  padding-bottom: 64px;
+}
+.clinicalHeading {
+  font: 36px "Open Sans";
+  color: #00274c;
+}
+
+.clinical p {
+  font: 16px "Open Sans";
+}
+
+.restrictions {
+  font: 16px "Open Sans";
+}

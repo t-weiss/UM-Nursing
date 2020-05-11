@@ -64,29 +64,34 @@
           <label for="email">Email</label>
           <input type="email" id="email" />
           <label for="program">Program Interest</label>
-          <select id="program">
-            <option value="1">Please Select...</option>
-            <option value="2">Primary Care Family Nurse Practitioner</option>
-            <option value="3"
-              >Adult-Gerontology Primary Care Nurse Practitioner</option
-            >
-            <option value="4">Unsure</option>
-          </select>
+          <div class="formDiv">
+            <select id="program">
+              <option value="1">Please Select...</option>
+              <option value="2">Primary Care Family Nurse Practitioner</option>
+              <option value="3"
+                >Adult-Gerontology Primary Care Nurse Practitioner</option
+              >
+              <option value="4">Unsure</option>
+            </select>
 
-          <button>Submit</button>
+            <button>Submit</button>
+          </div>
         </form>
       </section>
+
       <section>
-        <div>
+        <div class="programIntoBlurb words">
           The U-M School of Nursing offers online degree options for select
           Advanced Practice Registered Nurse (APRN) clinical specialties.
         </div>
 
-        <h1>
+        <h1 class="chooseHeading">
           Choose your Online MSN Program Interest:
         </h1>
-        <a href="">Primary Care Family Nurse Practitioner</a>
-        <p>
+        <a class="programHead words" href=""
+          >Primary Care Family Nurse Practitioner</a
+        >
+        <p class="words">
           The Primary Care Family Nurse Practitioner (FNP) program is designed
           to prepare advanced-practice nurses for the current and evolving
           primary healthcare system. Our program provides students with the
@@ -99,8 +104,10 @@
           term.
         </p>
 
-        <a href="">Adult-Gerontology Primary Care Nurse Practitioner </a>
-        <p>
+        <a class="programHead words" href=""
+          >Adult-Gerontology Primary Care Nurse Practitioner
+        </a>
+        <p class="words">
           The Adult-Gerontology Primary Care Nurse Practitioner (AGPCNP) program
           is based on an understanding of health sciences theory and clinical
           preparation that shapes the knowledge, judgment, and skills necessary
@@ -110,8 +117,10 @@
           three days each term.
         </p>
 
-        <a href="">Primary Care Family Nurse Practitioner</a>
-        <p>
+        <a class="programHead words" href=""
+          >Primary Care Family Nurse Practitioner</a
+        >
+        <p class="words">
           The Primary Care Family Nurse Practitioner (FNP) program is designed
           to prepare advanced-practice nurses for the current and evolving
           primary healthcare system. Our program provides students with the
@@ -125,10 +134,10 @@
         </p>
       </section>
 
-      <section>
-        <!-- banner image -->
-        <h1>Clinical Placements</h1>
-        <p>
+      <section class="clinical">
+        <img class="hero" src="/assets/clinical01.jpg" alt="hero" />
+        <h1 class="clinicalHeading words">Clinical Placements</h1>
+        <p class="words">
           Establishing new clinical partnerships takes time. Our faculty mentors
           work one on one with students to build a program plan and ﬁnd clinical
           sites. The University of Michigan School of Nursing (UMSN) has
@@ -138,9 +147,9 @@
           system in the state of Michigan and a growing number of additional
           locations throughout the country.
         </p>
-        <!-- banner image -->
-        <h1>Clinical Learning Center</h1>
-        <p>
+        <img class="hero" src="/assets/clinical02.jpg" alt="hero" />
+        <h1 class="clinicalHeading words">Clinical Learning Center</h1>
+        <p class="words">
           Opened in 2015, our state-of-the-art Clinical Learning Facility
           focuses on active learning that fosters greater understanding and
           advanced clinical reasoning. From simulation rooms supplied with
@@ -152,8 +161,8 @@
       </section>
 
       <section>
-        <h1>Clinical Placement Restrictions</h1>
-        <p>
+        <h1 class="clinicalHeading words">Clinical Placement Restrictions</h1>
+        <p class="words restrictions">
           The UMSN continually updates information regarding states where we
           cannot assure clinical placements for students enrolled in our online
           programs. This information is provided on the School of Nursing
@@ -170,6 +179,8 @@
       </section>
     </main>
 
-    <footer></footer>
+    <footer>
+
+    </footer>
   </body>
 </html>
