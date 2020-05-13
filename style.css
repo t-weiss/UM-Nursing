@@ -118,10 +118,46 @@ button {
   color: #00274c;
 }
 
-.clinical p {
+.CP {
   font: 16px "Open Sans";
 }
 
 .restrictions {
   font: 16px "Open Sans";
+}
+
+footer {
+  background-color: #00274c;
+  color: white;
+  text-align: center;
+  font: 12px "Open Sans";
+  padding-top: 42px;
+  padding-bottom: 48px;
+}
+footer a {
+  color: white;
+}
+footer a:hover {
+  color: #ffcb05;
+}
+footer p {
+  margin: 0px;
+}
+.logos {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+  /* align-items: flex-end; */
+}
+.bold {
+  font-weight: bold;
+}
+.mainLogo {
+  margin-bottom: 25px;
+}
+.change {
+  font: 14px "Open Sans";
+}
+.phone {
+  margin-bottom: 15px;
 }
