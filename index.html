@@ -15,41 +15,45 @@
 
     <main class="something" id="maincontent">
       <section>
-        <div>
-          <img class="hero" src="/assets/clinical01.jpg" alt="hero" />
-          <!-- <img class="hero" src="/assets/circle.png" alt="circle" /> -->
-        </div>
+        <div class="introBox">
+          <div class="bannerBox">
+            <img class="hero banner" src="/assets/clinical01.jpg" alt="hero" />
+            <!-- <img class="hero" src="/assets/circle.png" alt="circle" /> -->
+          </div>
 
-        <div class="words">
-          <h1 class="title">Online Master of Science in Nursing (MSN)</h1>
-          <p class="intro">
-            The University of Michigan School of Nursing (UMSN) leads the way to
-            nursing excellence through the synergy of education, research, and
-            service.
-          </p>
-          <div class="introparas">
-            <p>
-              To meet the demand for high-quality digital education among
-              graduate nursing students across the country, the U-M School of
-              Nursing now offers clinically-based Master of Science in Nursing
-              (MSN) programs online.
+          <div class="words">
+            <h1 class="title">Online Master of Science in Nursing (MSN)</h1>
+            <p class="intro">
+              The University of Michigan School of Nursing (UMSN) leads the way
+              to nursing excellence through the synergy of education, research,
+              and service.
             </p>
-            <p>
-              We are bringing the residential learning experience to the digital
-              environment, providing access to renowned faculty practitioners
-              and the wide array of resources students expect when attending a
-              world-class research institution. New programs employ innovative
-              digital education methodologies, such as story booking, animation,
-              simulation, and more, in order to maintain the rigorous didactic
-              and clinical instruction offered on campus.
-            </p>
-            <p>
-              Consistently ranked in the top 10 nationally, the University of
-              Michigan Master of Science in Nursing (MSN) program prepares
-              students who already hold a bachelor of science degree in nursing
-              for careers in advanced clinical practice, research, leadership in
-              healthcare organizations, and informatics and population health.
-            </p>
+            <div class="introparas">
+              <p>
+                To meet the demand for high-quality digital education among
+                graduate nursing students across the country, the U-M School of
+                Nursing now offers clinically-based Master of Science in Nursing
+                (MSN) programs online.
+              </p>
+              <p>
+                We are bringing the residential learning experience to the
+                digital environment, providing access to renowned faculty
+                practitioners and the wide array of resources students expect
+                when attending a world-class research institution. New programs
+                employ innovative digital education methodologies, such as story
+                booking, animation, simulation, and more, in order to maintain
+                the rigorous didactic and clinical instruction offered on
+                campus.
+              </p>
+              <p>
+                Consistently ranked in the top 10 nationally, the University of
+                Michigan Master of Science in Nursing (MSN) program prepares
+                students who already hold a bachelor of science degree in
+                nursing for careers in advanced clinical practice, research,
+                leadership in healthcare organizations, and informatics and
+                population health.
+              </p>
+            </div>
           </div>
         </div>
       </section>
@@ -58,24 +62,41 @@
           <h1 class="formTitle">
             Enter your contact information for a quick, personalized follow-up!
           </h1>
-          <label for="firstName">First Name</label>
-          <input type="text" id="firstName" />
-          <label for="lirstName">Last Name</label>
-          <input type="text" id="lastName" />
-          <label for="email">Email</label>
-          <input type="email" id="email" />
-          <label for="program">Program Interest</label>
-          <div class="formDiv">
-            <select id="program">
-              <option value="1">Please Select...</option>
-              <option value="2">Primary Care Family Nurse Practitioner</option>
-              <option value="3"
-                >Adult-Gerontology Primary Care Nurse Practitioner</option
-              >
-              <option value="4">Unsure</option>
-            </select>
-
-            <button>Submit</button>
+          <div class="formLine1">
+            <div class="firstName">
+              <label for="firstName">First Name</label>
+              <input type="text" id="firstName" />
+            </div>
+            <div class="lastName">
+              <label for="lastName">Last Name</label>
+              <input type="text" id="lastName" />
+            </div>
+          </div>
+          <div class="formLine2">
+            <div class="email">
+              <label for="email">Email</label>
+              <input type="email" id="email" />
+            </div>
+            <div class="emailProgram">
+              <div class="program">
+                <label for="program">Program Interest</label>
+                <div class="formDiv">
+                  <select id="program">
+                    <option value="1">Please Select...</option>
+                    <option value="2"
+                      >Primary Care Family Nurse Practitioner</option
+                    >
+                    <option value="3"
+                      >Adult-Gerontology Primary Care Nurse Practitioner</option
+                    >
+                    <option value="4">Unsure</option>
+                  </select>
+                </div>
+              </div>
+              <div>
+                <button>Submit</button>
+              </div>
+            </div>
           </div>
         </form>
       </section>
@@ -89,76 +110,73 @@
         <h1 class="chooseHeading">
           Choose your Online MSN Program Interest:
         </h1>
-        <a class="programHead words" href=""
-          >Primary Care Family Nurse Practitioner</a
-        >
-        <p class="words restrictions">
-          The Primary Care Family Nurse Practitioner (FNP) program is designed
-          to prepare advanced-practice nurses for the current and evolving
-          primary healthcare system. Our program provides students with the
-          skills needed to deliver cutting-edge, community-based primary
-          healthcare to individuals and families across the lifespan. We place a
-          strong emphasis on health promotion, as well as the development of
-          positive health behaviors as they pertain to diverse groups at
-          different developmental and age stages. Students will be required to
-          attend an on-campus orientation and come to campus for three days each
-          term.
-        </p>
-
-        <a class="programHead words" href=""
-          >Adult-Gerontology Primary Care Nurse Practitioner
-        </a>
-        <p class="words restrictions">
-          The Adult-Gerontology Primary Care Nurse Practitioner (AGPCNP) program
-          is based on an understanding of health sciences theory and clinical
-          preparation that shapes the knowledge, judgment, and skills necessary
-          to provide primary healthcare management, health promotion, and
-          disease prevention to adolescents and adults. Students will be
-          required to attend an on-campus orientation and come to campus for
-          three days each term.
-        </p>
-
-        <a class="programHead words" href=""
-          >Primary Care Family Nurse Practitioner</a
-        >
-        <p class="words restrictions">
-          The Primary Care Family Nurse Practitioner (FNP) program is designed
-          to prepare advanced-practice nurses for the current and evolving
-          primary healthcare system. Our program provides students with the
-          skills needed to deliver cutting-edge, community-based primary
-          healthcare to individuals and families across the lifespan. We place a
-          strong emphasis on health promotion, as well as the development of
-          positive health behaviors as they pertain to diverse groups at
-          different developmental and age stages. Students will be required to
-          attend an on-campus orientation and come to campus for three days each
-          term.
-        </p>
+        <div class="interests">
+          <div>
+            <a class="programHead words" href=""
+              >Primary Care Family Nurse Practitioner</a
+            >
+            <p class="words restrictions">
+              The Primary Care Family Nurse Practitioner (FNP) program is
+              designed to prepare advanced-practice nurses for the current and
+              evolving primary healthcare system. Our program provides students
+              with the skills needed to deliver cutting-edge, community-based
+              primary healthcare to individuals and families across the
+              lifespan. We place a strong emphasis on health promotion, as well
+              as the development of positive health behaviors as they pertain to
+              diverse groups at different developmental and age stages. Students
+              will be required to attend an on-campus orientation and come to
+              campus for three days each term.
+            </p>
+          </div>
+          <div>
+            <a class="programHead words" href=""
+              >Adult-Gerontology Primary Care Nurse Practitioner
+            </a>
+            <p class="words restrictions">
+              The Adult-Gerontology Primary Care Nurse Practitioner (AGPCNP)
+              program is based on an understanding of health sciences theory and
+              clinical preparation that shapes the knowledge, judgment, and
+              skills necessary to provide primary healthcare management, health
+              promotion, and disease prevention to adolescents and adults.
+              Students will be required to attend an on-campus orientation and
+              come to campus for three days each term.
+            </p>
+          </div>
+        </div>
       </section>
 
       <section class="clinical">
-        <img class="hero" src="/assets/clinical01.jpg" alt="hero" />
-        <h1 class="clinicalHeading words">Clinical Placements</h1>
-        <p class="words restrictions">
-          Establishing new clinical partnerships takes time. Our faculty mentors
-          work one on one with students to build a program plan and ﬁnd clinical
-          sites. The University of Michigan School of Nursing (UMSN) has
-          hundreds of site locations — from top-ranked health systems to small
-          rural clinics and specialty locations — for students to fulfill
-          clinical requirements. We have partnerships with nearly every health
-          system in the state of Michigan and a growing number of additional
-          locations throughout the country.
-        </p>
-        <img class="hero" src="/assets/clinical02.jpg" alt="hero" />
-        <h1 class="clinicalHeading words">Clinical Learning Center</h1>
-        <p class="words restrictions">
-          Opened in 2015, our state-of-the-art Clinical Learning Facility
-          focuses on active learning that fosters greater understanding and
-          advanced clinical reasoning. From simulation rooms supplied with
-          high-fidelity mannequins for replicating realistic healthcare
-          situations to skills labs for honing basic and advanced skills, we
-          help students apply their knowledge of nursing theory in an
-          interactive and safe environment.
-        </p>
+        <div class="clinicalPlacements">
+          <img class="hero CpImage" src="/assets/clinical01.jpg" alt="hero" />
+          <div>
+            <h1 class="clinicalHeading words">Clinical Placements</h1>
+            <p class="words restrictions">
+              Establishing new clinical partnerships takes time. Our faculty
+              mentors work one on one with students to build a program plan and
+              ﬁnd clinical sites. The University of Michigan School of Nursing
+              (UMSN) has hundreds of site locations — from top-ranked health
+              systems to small rural clinics and specialty locations — for
+              students to fulfill clinical requirements. We have partnerships
+              with nearly every health system in the state of Michigan and a
+              growing number of additional locations throughout the country.
+            </p>
+          </div>
+        </div>
+        <div class="clinicalLearning">
+          <img class="hero CpImage" src="/assets/clinical02.jpg" alt="hero" />
+          <div>
+            <h1 class="clinicalHeading words">Clinical Learning Center</h1>
+            <p class="words restrictions">
+              Opened in 2015, our state-of-the-art Clinical Learning Facility
+              focuses on active learning that fosters greater understanding and
+              advanced clinical reasoning. From simulation rooms supplied with
+              high-fidelity mannequins for replicating realistic healthcare
+              situations to skills labs for honing basic and advanced skills, we
+              help students apply their knowledge of nursing theory in an
+              interactive and safe environment.
+            </p>
+          </div>
+        </div>
       </section>
 
       <section>
@@ -181,33 +199,40 @@
     </main>
 
     <footer>
-      <img class="mainLogo" src="/assets/signature-vertical.svg" alt="logo" />
-
-      <p class="bold">
-        Contact Us
-      </p>
-      <p class="bold">U-M School of Nursing</p>
-      <p class="phone">426 N. Ingalls St., Ann Arbor, MI 48109-2003</p>
-      <p class="phone"><a href="#">734-763-5985</a></p>
-      <div class="logos">
-        <div>
-          <img class="logo" src="/assets/Top25-BSNPrograms.png" alt="logo" />
+      <div>
+        <img class="mainLogo" src="/assets/signature-vertical.svg" alt="logo" />
+      </div>
+      <div class = contactUs>
+        <p class="bold">
+          Contact Us
+        </p>
+        <p class="bold">U-M School of Nursing</p>
+        <p class="phone">426 N. Ingalls St., Ann Arbor, MI 48109-2003</p>
+        <p class="phone"><a href="#">734-763-5985</a></p>
+      </div>
+      <div class="footerLogos">
+        <div class="logos">
+          <div>
+            <img class="logo" src="/assets/Top25-BSNPrograms.png" alt="logo" />
+          </div>
+          <div>
+            <img
+              class="logo"
+              src="/assets/usnwr-grad-generic-2020.png"
+              alt="logo"
+            />
+          </div>
         </div>
-        <div>
-          <img
-            class="logo"
-            src="/assets/usnwr-grad-generic-2020.png"
-            alt="logo"
-          />
+        <div class="footerWords">
+          <p class="words">
+            The baccalaureate degree program in nursing, master's degree program
+            in nursing and Doctor of Nursing Practice program at University of
+            Michigan School of Nursing is accredited by the Commission on
+            Collegiate Nursing Education, 655 K Street, NW, Suite 750,
+            Washington, DC 20001, 202-887-6791.
+          </p>
         </div>
       </div>
-      <p class="words">
-        The baccalaureate degree program in nursing, master's degree program in
-        nursing and Doctor of Nursing Practice program at University of Michigan
-        School of Nursing is accredited by the Commission on Collegiate Nursing
-        Education, 655 K Street, NW, Suite 750, Washington, DC 20001,
-        202-887-6791.
-      </p>
     </footer>
   </body>
 </html>
